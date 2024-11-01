@@ -1,0 +1,32 @@
+/* CSS for block-editor */
+
+.wp-block-gb-basic-01 {
+	color: #000000;
+	background: mistyrose;
+	border: 0.2rem solid red;
+	padding: 2rem;
+}
+
+.sub_name_input, .sub_email_input {
+	width: 100%;
+}
+
+.sub_name_label, .sub_email_label {
+	font-weight: bold;
+}
+
+.subscriber_submit_btn {
+	margin-top: 10px;
+    background: #222;
+    color: #eee;
+    border-radius: 1px !important;
+    border: 0;
+    font-size: 15px !important;
+    padding: 10px 15px 10px 15px !important;
+    font-weight: bold;
+    transition: background 0.2s ease-in-out;
+}
+
+.subscriber_submit_btn:hover {
+	background: #767676;
+}

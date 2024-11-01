@@ -1,0 +1,21 @@
+.advanced_setting_label{
+    font-weight: 500;
+    text-align: center;
+}
+
+.reset_color_button_button{
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    margin-bottom: 15px !important;
+}
+
+.reset_color_button_text{
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    margin-bottom: 15px !important;
+}
+

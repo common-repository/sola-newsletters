@@ -1,0 +1,592 @@
+/*----- RESET ----*/
+
+
+
+p{
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+}
+body{
+    /*background-color: initial;*/
+}
+.update-nag{
+    display:none;
+}
+
+hr{
+    border-top: 1px solid #CCC;
+}
+
+/*Jarryd*/
+
+#sola_newsletter_preview{
+    margin: 0 auto;
+}
+
+/*Preview - Desktop*/
+.preview_desktop {
+    background-image: url(../images/preview/desktop_preview.png);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    padding: 92px 28px 138px 136px;
+}
+.preview_desktop #sola_newsletter_wrapper{
+    width: 687px;
+    height: 812px;
+    zoom: 0.9;
+}
+.preview_desktop .preview_container {
+    height: 360px;
+    overflow-y: scroll;
+    width: 636px;
+}
+
+/*Preview - Mobile*/
+.preview_mobile {
+    background-image: url(../images/preview/iphone_preview.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    padding: 208px 90px 97px 25px;
+}
+.preview_mobile #sola_newsletter_wrapper{
+    width: 264px;
+    height: 790px;
+    zoom: 0.7;
+}
+.preview_mobile .preview_container {
+    height: 230px;
+    overflow-y: scroll;
+    width: 202px;
+}
+
+/*Preview - iPad*/
+.preview_tablet {
+    background-image: url(../images/preview/ipad_preview.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    padding: 136px 53px 105px 216px;
+}
+.preview_tablet #sola_newsletter_wrapper{
+    width: 357px;
+    height: 790px;
+    zoom: 0.6;
+}
+.preview_tablet .preview_container {
+    height: 455px;
+    overflow-y: scroll;
+    width: 231px;
+}
+
+/*Preview - Nexus*/
+.preview_tablet_landscape {
+    background-image: url(../images/preview/tablet_landscape.png);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    padding: 95px 72px 97px 237px;
+}
+.preview_tablet_landscape #sola_newsletter_wrapper{
+    width: 676px;
+    height: 812px;
+    zoom: 0.7;
+}
+.preview_tablet_landscape .preview_container {
+    height: 343px;
+    overflow-y: scroll;
+    width: 490px;
+}
+
+.preview_actions{
+    position: relative;
+    margin-top: 10px;
+}
+.preview_actions .return_editor{
+    display: inline-block;
+    left: 0;
+}
+
+.preview_actions .confirm_camp{
+    position: absolute;
+    right: 15px;
+    text-align: right;
+    display: inline-block;
+}
+
+.sola_nl_shadows {
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+    background: #fff;
+    padding: 15px;
+}
+
+
+/*----- CUSTOM STYLES ------*/
+.sola-input{
+   width:300px;
+}
+.sola-td-vert{
+   vertical-align: top;
+}
+.sola-input-subject{
+   width:500px;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.progressBar {
+    width: 100px;
+    height: 10px;
+    border: 1px solid #111;
+    background-color: #3C3C3C;
+    display: inline-block;
+    margin-top: 3px;
+    clear:both;
+}
+
+.progressBar div {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #0099ff;
+}
+.sola_nl_sign_up_box .sola_nl_sub_form .sola_sign_up_form_row{
+    padding:10px 0;
+}
+/* ---------------------- */
+.extension-wrap {
+    display: flex;
+}
+
+.extensions {
+    float: left;
+    margin: 0 1% 1% 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 320px;
+    padding: 14px;
+    padding-bottom: 24px;
+    height: 100px;
+    position: relative;
+    display: inline-flex;
+    opacity: 0.7;
+
+    transition: opacity 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+}
+
+.extensions:hover {
+    opacity: 1;
+}
+
+.extensions .extensions-inner {
+    padding-left: 7px;
+}
+
+.extensions .extensions-inner strong {
+    font-size: 1.1em;
+}
+
+.extensions .extensions-inner p {
+    margin-top: 2px;
+    margin-bottom: 6px;
+    padding-left: 0;
+}
+
+.extensions img {
+    height: 100px;
+    float: left;
+}
+
+.extensions p {
+    padding-left: 5px;
+}
+/* ----------------------*/
+
+
+/* - albert - */
+
+.sola_nl_sign_up_box .sola_nl_sub_form .sola_sign_up_form_row label{
+   width: 150px;
+   display:inline-block;
+}
+
+/*New Look*/
+
+/*.wrap {
+    margin: 10px 20px 0 2px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 8px 20px -10px;
+}*/
+.sola_header td{
+    text-align:center;
+    vertical-align:middle;
+}
+.sola_header img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.sola_header_menu a{
+    color:#920506;
+    font-weight:bold;
+    text-decoration: none;
+}
+.sola_header_menu a:hover{
+    text-decoration:underline;
+}
+.sola_header_menu td {
+    padding: 5px;
+}
+
+#sola_tabs .ui-tabs-nav {
+    padding:0; 
+    height:30px;  
+    background: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sola_tabs .ui-tabs-panel{
+    padding:0;
+}
+#sola_tabs .ui-tabs-panel table {
+/*    border: 1px solid #E7e7e7;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;*/
+    padding: 5px;
+}
+#sola_tabs .ui-state-default{
+background-color: #dbdbdb;
+height: 35px;
+padding: 0px 20px;
+line-height: 34px;
+}
+
+
+#sola_tabs .ui-state-default a{
+    color: #000;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#sola_tabs .ui-tabs-nav li:hover {
+    background: #e8e9ea;
+}
+
+#sola_tabs .ui-state-default a:hover{
+    text-decoration:none;    
+    cursor: pointer;
+}
+
+#sola_tabs .ui-state-active a:hover{
+    cursor: pointer;
+}
+#sola_tabs .ui-state-active {
+    background-color: #0085ba;   
+    height: 35px;
+}
+#sola_tabs .ui-state-active a{
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    box-sizing: border-box;
+}
+#sola_tabs .ui-tabs-nav {
+    text-align: center;
+}
+#sola_tabs .ui-tabs-nav li {
+    float: none !important;
+    display: inline-block;
+}
+#wpadminbar ul #wp-admin-bar-sola_toolbar_pending, #wpadminbar ul #wp-admin-bar-sola_progress_bar, #wpadminbar ul #wp-admin-bar-sola_toolbar_label {
+    padding-left: 10px;
+}
+#toplevel_page_sola-nl-menu .wp-menu-image img{
+    padding:0 !important;
+}
+
+.theme_div_wrapper p { margin:0; padding:2px; }
+.theme_div_wrapper input[type=radio]{
+  display:none;
+}
+
+.theme_div_wrapper input[type=radio] + img{
+    cursor: pointer;
+    width: 100%;
+    left: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    /* top: 0; */
+    position: absolute;
+    /* padding: 4px; */
+}
+
+
+.themes_wrapper{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.theme_div_wrapper{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    margin-left: 20px;
+    position: relative;
+}
+.theme_img{
+    border: solid 1px #000;
+    border-radius: 10px;
+    
+}
+.theme_radio_btn{
+    text-align: center;
+}
+
+.add-box img{
+    max-width: 100%;
+}
+.sidebar .content .add-box{
+    cursor: pointer;
+}
+
+.automatic_entry{
+    background-color: antiquewhite;
+}
+
+body div div.mce-tinymce,body div div.mce-container,body div div.mce-panel
+{
+    width:100%;
+}
+
+body div div.mce-tinymce div,body div div.mce-container div,body div div.mce-panel div
+{
+    width:auto;
+}
+
+body div.hidden_list_descriptions{
+    
+    margin-left:0px;
+    margin-top:15px;
+    padding:15px;
+    display:block; /*this will be applied and if the browser supports the other display value then it will be used*/
+    display:inline-table;
+    border:1px solid grey;
+    border-radius:2px;
+    width:98%;
+}
+
+#sola_nl_email_debug_output { display:block; width:60%; border:1px solid #ccc; padding:10px; margin-top:10px;}
+
+
+/* Extensions Page Styling */
+/* *********************** */
+.sola-extension {
+    margin: 22px;
+    background: #fff;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 27%;
+    padding: 12px;
+    height: 420px;
+    position: relative;
+    vertical-align: top;
+}
+.sola-extension h3 {
+    margin: 0 0 8px;
+    font-size: 13px;
+
+}
+.sola-extension .wp-post-image { 
+    width: 100%;
+    height: auto;
+}
+.sola-extension .button-secondary {
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+}
+.sola-plugin {
+    height: 300px;
+}
+.sola-extension-label-box {
+    display:block;
+    overflow:auto;
+    clear:both;
+}
+.sola-extension-label {
+    display:block; 
+    float:left; 
+    padding:5px; 
+    margin-right:5px; 
+    font-size:0.8em; 
+    background-color:#bbb; 
+    color:#FFF; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+}
+
+.theme_div_wrapper {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    background: #fafafa;
+    transition: opacity .5s ease-out;
+}
+
+.theme_div_wrapper:hover {
+    opacity: 0.8;
+}
+
+.ui-tabs-nav .ui-helper-reset .ui-helper-clearfix .ui-widget-header .ui-corner-all{
+    background: #fff;
+    border: none;
+}
+
+.ui-tabs-anchor {
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+}
+
+.ui-tabs-anchor:focus {
+    box-shadow: none;
+
+}
+
+.theme_div_wrapper h3 {
+    margin: 0;
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#tab_container {
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+    background: #ffffff;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+#tabs-1 h3 {
+    font-weight: 400;
+}
+
+#tabs-2 h3 {
+    font-weight: 400;
+}
+
+#tabs-2 {
+    padding: 35px;
+}
+
+.theme_div_wrapper.active {
+    background: #23282d;
+    color: #fff;
+    border: solid 1px #23282d;
+}
+
+.theme_div_wrapper.active h3 {
+    color: #fff;
+}
+
+.ui-tabs .ui-tabs-nav {
+    background: #ffffff;
+    border: none;
+    padding: 0 !important;
+}
+
+#tabs {
+    background: none;
+    border: none;
+}
+
+#tabs .ui-tabs-nav {
+    background: none;
+}
+
+#tabs .ui-tabs-panel {
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+    background: #ffffff;
+    
+}
+
+#tabs hr {
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    margin: 0;
+    border-bottom-width: 0;
+    padding: 0;
+    white-space: nowrap;
+    border: none;
+    background: 
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    margin: 0;
+}
+
+.nav-tab-wrapper, .wrap h2.nav-tab-wrapper, h1.nav-tab-wrapper {
+    margin-top: 20px;
+    padding-bottom: 0;
+    line-height: inherit;
+    border: none;
+    padding-top: 0;
+}
+
+.nav-tab {
+    float: left;
+    /* border: 1px solid #ccc; */
+    /* border-bottom: none; */
+    /* margin-left: .5em; */
+    padding: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    /* line-height: 1.71428571; */
+    /* font-weight: 600; */
+    background: #f6f6f6;
+    color: #555;
+    text-decoration: none;
+    white-space: nowrap;
+    border: none;
+    margin-left: 0;
+}
+
+.nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover {
+    border-bottom: 1px solid #f1f1f1;
+    background: #0085ba;
+    color: #fff;
+}
+
+.nav-tab:hover {
+    background: #e9e9e9;
+}
+
+.nav-tab-active:hover {
+    background: #0085ba;
+}
+
+.wp-person a:focus .gravatar, a:focus, a:focus .media-icon img {
+    box-shadow: none;
+}

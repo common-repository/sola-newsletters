@@ -1,0 +1,9 @@
+/* CSS for front-end block */
+
+.sub_name_input, .sub_email_input {
+	width: 100%;
+}
+
+.sub_name_label, .sub_email_label {
+	font-weight: bold;
+}
